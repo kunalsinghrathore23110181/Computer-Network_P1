@@ -1,0 +1,27 @@
+-----------------------------------------------------------
+Server listening on 5210 (test #1)
+-----------------------------------------------------------
+Accepted connection from 10.210.0.1, port 40977
+[  5] local 10.210.0.2 port 5210 connected to 10.210.0.1 port 41001
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  10.6 GBytes  91.3 Gbits/sec                  (omitted)
+[  5]   1.00-2.00   sec  12.1 GBytes   104 Gbits/sec                  (omitted)
+[  5]   2.00-3.00   sec  12.2 GBytes   105 Gbits/sec                  (omitted)
+[  5]   0.00-1.00   sec  11.4 GBytes  97.9 Gbits/sec                  
+[  5]   1.00-2.00   sec  10.2 GBytes  87.4 Gbits/sec                  
+[  5]   2.00-3.00   sec  10.5 GBytes  90.4 Gbits/sec                  
+[  5]   3.00-4.00   sec  10.0 GBytes  85.9 Gbits/sec                  
+[  5]   4.00-5.00   sec  9.81 GBytes  84.2 Gbits/sec                  
+[  5]   5.00-6.00   sec  10.1 GBytes  87.2 Gbits/sec                  
+[  5]   6.00-7.00   sec  11.8 GBytes   101 Gbits/sec                  
+[  5]   7.00-8.00   sec  12.1 GBytes   104 Gbits/sec                  
+[  5]   8.00-9.00   sec  12.1 GBytes   104 Gbits/sec                  
+[  5]   9.00-10.00  sec  11.7 GBytes   101 Gbits/sec                  
+[  5]  10.00-11.00  sec  12.0 GBytes   103 Gbits/sec                  
+[  5]  11.00-12.00  sec  10.5 GBytes  90.6 Gbits/sec                  
+[  5]  12.00-13.00  sec  11.0 GBytes  94.7 Gbits/sec                  
+[  5]  13.00-14.00  sec  12.3 GBytes   105 Gbits/sec                  
+[  5]  14.00-15.00  sec  12.2 GBytes   105 Gbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-15.00  sec   168 GBytes  96.1 Gbits/sec                  receiver

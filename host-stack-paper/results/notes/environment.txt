@@ -1,0 +1,54 @@
+Recorded: 2026-09-10T23:03:52+00:00
+
+OPERATING SYSTEM
+Linux ubuntu 7.0.0-31-generic #31-Ubuntu SMP PREEMPT_DYNAMIC Sat Aug  1 03:33:01 UTC 2026 aarch64 GNU/Linux
+PRETTY_NAME="Ubuntu 26.04 LTS"
+VERSION="26.04 (Resolute Raccoon)"
+
+VIRTUALISATION
+qemu
+
+CPU
+Architecture:                            aarch64
+CPU(s):                                  4
+Vendor ID:                               Apple
+Model name:                              -
+Thread(s) per core:                      1
+Core(s) per socket:                      4
+Socket(s):                               1
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-3
+
+MEMORY
+               total        used        free      shared  buff/cache   available
+Mem:           7.2Gi       5.0Gi       330Mi       268Mi       2.3Gi       2.2Gi
+Swap:          4.0Gi       325Mi       3.7Gi
+
+PERFORMANCE COUNTERS
+breakpoint
+kprobe
+software
+tracepoint
+uprobe
+(no cpu/armv8 PMU entry = no hardware cache-miss counters in this VM)
+
+TCP SETTINGS
+net.ipv4.tcp_available_congestion_control = reno cubic
+net.ipv4.tcp_congestion_control = cubic
+net.ipv4.tcp_rmem = 4096	131072	33554432
+net.ipv4.tcp_wmem = 4096	16384	4194304
+net.core.rmem_max = 4194304
+net.core.wmem_max = 4194304
+net.core.netdev_max_backlog = 1000
+net.core.default_qdisc = fq_codel
+
+TOOLS
+iperf3   /usr/bin/iperf3
+netperf  /usr/bin/netperf
+mpstat   /usr/bin/mpstat
+perf     /usr/bin/perf
+ethtool  /usr/sbin/ethtool
+tc       /usr/sbin/tc
+iperf 3.20 (cJSON 1.7.15)
+Netperf version 2.7.1
+sysstat version 12.7.7

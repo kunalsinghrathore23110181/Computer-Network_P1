@@ -1,0 +1,26 @@
+-----------------------------------------------------------
+Server listening on 5302 (test #1)
+-----------------------------------------------------------
+Accepted connection from 10.231.2.1, port 47759
+[  5] local 10.231.2.2 port 5302 connected to 10.231.2.1 port 42991
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  11.1 GBytes  95.0 Gbits/sec                  (omitted)
+[  5]   1.00-2.00   sec  10.3 GBytes  88.3 Gbits/sec                  (omitted)
+[  5]   1.00-1.00   sec  9.90 GBytes  42.5 Gbits/sec                  
+[  5]   1.00-2.00   sec  9.68 GBytes  83.2 Gbits/sec                  
+[  5]   2.00-3.00   sec  9.69 GBytes  83.2 Gbits/sec                  
+[  5]   3.00-4.00   sec  9.61 GBytes  82.6 Gbits/sec                  
+[  5]   4.00-5.00   sec  9.53 GBytes  81.9 Gbits/sec                  
+[  5]   5.00-6.00   sec  9.41 GBytes  80.8 Gbits/sec                  
+[  5]   6.00-7.00   sec  9.50 GBytes  81.6 Gbits/sec                  
+[  5]   7.00-8.00   sec  9.48 GBytes  81.4 Gbits/sec                  
+[  5]   8.00-9.00   sec  9.43 GBytes  81.0 Gbits/sec                  
+[  5]   9.00-10.00  sec  9.43 GBytes  81.0 Gbits/sec                  
+[  5]  10.00-11.00  sec  9.25 GBytes  79.5 Gbits/sec                  
+[  5]  11.00-12.00  sec  9.31 GBytes  80.0 Gbits/sec                  
+[  5]  12.00-13.00  sec  9.39 GBytes  80.7 Gbits/sec                  
+[  5]  13.00-14.00  sec  9.40 GBytes  80.8 Gbits/sec                  
+[  5]  14.00-15.00  sec  9.15 GBytes  78.6 Gbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-15.00  sec   142 GBytes  81.4 Gbits/sec                  receiver

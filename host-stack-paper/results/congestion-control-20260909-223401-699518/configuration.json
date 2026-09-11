@@ -1,0 +1,27 @@
+{
+  "paper_section": "3.10",
+  "scope": "Single-flow congestion-control comparison in one VM",
+  "algorithms": [
+    "cubic",
+    "bbr",
+    "dctcp"
+  ],
+  "sender_application_cpu": 0,
+  "receiver_application_cpu": 2,
+  "warmup_omitted_seconds": 3,
+  "measurement_seconds": 15,
+  "repetitions": 3,
+  "random_seed": 42,
+  "mtu": 1500,
+  "queue": "fq limit 10000 flow_limit 1000 ce_threshold 1ms",
+  "queue_scope": "Same software configuration at both endpoints",
+  "threshold_provenance": "Local adaptation; not a paper value",
+  "artificial_rate_limit": null,
+  "artificial_random_loss": null,
+  "iperf_version": "iperf 3.20 (cJSON 1.7.15)\nLinux ubuntu 7.0.0-31-generic #31-Ubuntu SMP PREEMPT_DYNAMIC Sat Aug  1 03:33:01 UTC 2026 aarch64\nOptional features available: CPU affinity setting, IPv6 flow label, SCTP, TCP congestion algorithm setting, sendfile / zerocopy, socket pacing, authentication, bind to device, support IPv4 don't fragment, POSIX threads\n",
+  "kernel": "7.0.0-31-generic",
+  "offloads": {
+    "h10_tx": "Features for h10_tx0:\nrx-checksumming: on\ntx-checksumming: on\n\ttx-checksum-ipv4: off [fixed]\n\ttx-checksum-ip-generic: on\n\ttx-checksum-ipv6: off [fixed]\n\ttx-checksum-fcoe-crc: off [fixed]\n\ttx-checksum-sctp: on\nscatter-gather: on\n\ttx-scatter-gather: on\n\ttx-scatter-gather-fraglist: on\ntcp-segmentation-offload: on\n\ttx-tcp-segmentation: on\n\ttx-tcp-ecn-segmentation: on\n\ttx-tcp-mangleid-segmentation: on\n\ttx-tcp6-segmentation: on\n\ttx-tcp-accecn-segmentation: on\ngeneric-segmentation-offload: on\ngeneric-receive-offload: off\nlarge-receive-offload: off [fixed]\nrx-vlan-offload: on\ntx-vlan-offload: on\nntuple-filters: off [fixed]\nreceive-hashing: off [fixed]\nhighdma: on\nrx-vlan-filter: off [fixed]\nvlan-challenged: off [fixed]\ntx-gso-robust: off [fixed]\ntx-fcoe-segmentation: off [fixed]\ntx-gre-segmentation: on\ntx-gre-csum-segmentation: on\ntx-ipxip4-segmentation: on\ntx-ipxip6-segmentation: on\ntx-udp_tnl-segmentation: on\ntx-udp_tnl-csum-segmentation: on\ntx-gso-partial: off [fixed]\ntx-tunnel-remcsum-segmentation: off [fixed]\ntx-sctp-segmentation: on\ntx-esp-segmentation: off [fixed]\ntx-udp-segmentation: on\ntx-gso-list: on\ntx-nocache-copy: off\nloopback: off [fixed]\nrx-fcs: off [fixed]\nrx-all: off [fixed]\ntx-vlan-stag-hw-insert: on\nrx-vlan-stag-hw-parse: on\nrx-vlan-stag-filter: off [fixed]\nl2-fwd-offload: off [fixed]\nhw-tc-offload: off [fixed]\nesp-hw-offload: off [fixed]\nesp-tx-csum-hw-offload: off [fixed]\nrx-udp_tunnel-port-offload: off [fixed]\ntls-hw-tx-offload: off [fixed]\ntls-hw-rx-offload: off [fixed]\nrx-gro-hw: off [fixed]\ntls-hw-record: off [fixed]\nrx-gro-list: off\nmacsec-hw-offload: off [fixed]\nrx-udp-gro-forwarding: off\nhsr-tag-ins-offload: off [fixed]\nhsr-tag-rm-offload: off [fixed]\nhsr-fwd-offload: off [fixed]\nhsr-dup-offload: off [fixed]\n",
+    "h10_rx": "Features for h10_rx0:\nrx-checksumming: on\ntx-checksumming: on\n\ttx-checksum-ipv4: off [fixed]\n\ttx-checksum-ip-generic: on\n\ttx-checksum-ipv6: off [fixed]\n\ttx-checksum-fcoe-crc: off [fixed]\n\ttx-checksum-sctp: on\nscatter-gather: on\n\ttx-scatter-gather: on\n\ttx-scatter-gather-fraglist: on\ntcp-segmentation-offload: on\n\ttx-tcp-segmentation: on\n\ttx-tcp-ecn-segmentation: on\n\ttx-tcp-mangleid-segmentation: on\n\ttx-tcp6-segmentation: on\n\ttx-tcp-accecn-segmentation: on\ngeneric-segmentation-offload: on\ngeneric-receive-offload: off\nlarge-receive-offload: off [fixed]\nrx-vlan-offload: on\ntx-vlan-offload: on\nntuple-filters: off [fixed]\nreceive-hashing: off [fixed]\nhighdma: on\nrx-vlan-filter: off [fixed]\nvlan-challenged: off [fixed]\ntx-gso-robust: off [fixed]\ntx-fcoe-segmentation: off [fixed]\ntx-gre-segmentation: on\ntx-gre-csum-segmentation: on\ntx-ipxip4-segmentation: on\ntx-ipxip6-segmentation: on\ntx-udp_tnl-segmentation: on\ntx-udp_tnl-csum-segmentation: on\ntx-gso-partial: off [fixed]\ntx-tunnel-remcsum-segmentation: off [fixed]\ntx-sctp-segmentation: on\ntx-esp-segmentation: off [fixed]\ntx-udp-segmentation: on\ntx-gso-list: on\ntx-nocache-copy: off\nloopback: off [fixed]\nrx-fcs: off [fixed]\nrx-all: off [fixed]\ntx-vlan-stag-hw-insert: on\nrx-vlan-stag-hw-parse: on\nrx-vlan-stag-filter: off [fixed]\nl2-fwd-offload: off [fixed]\nhw-tc-offload: off [fixed]\nesp-hw-offload: off [fixed]\nesp-tx-csum-hw-offload: off [fixed]\nrx-udp_tunnel-port-offload: off [fixed]\ntls-hw-tx-offload: off [fixed]\ntls-hw-rx-offload: off [fixed]\nrx-gro-hw: off [fixed]\ntls-hw-record: off [fixed]\nrx-gro-list: off\nmacsec-hw-offload: off [fixed]\nrx-udp-gro-forwarding: off\nhsr-tag-ins-offload: off [fixed]\nhsr-tag-rm-offload: off [fixed]\nhsr-fwd-offload: off [fixed]\nhsr-dup-offload: off [fixed]\n"
+  }
+}

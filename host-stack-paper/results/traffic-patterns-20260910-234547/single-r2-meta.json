@@ -1,0 +1,18 @@
+{
+  "flows": [
+    [
+      0,
+      2,
+      5301
+    ]
+  ],
+  "cc": "cubic",
+  "seconds": 15,
+  "omit": 3,
+  "window": null,
+  "launch_span_ms": 0.0,
+  "cpu_window_epoch": [
+    1789083996.581,
+    1789084011.581
+  ]
+}

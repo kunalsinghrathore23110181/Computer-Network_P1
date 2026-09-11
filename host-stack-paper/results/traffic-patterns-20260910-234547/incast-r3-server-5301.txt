@@ -1,0 +1,26 @@
+-----------------------------------------------------------
+Server listening on 5301 (test #1)
+-----------------------------------------------------------
+Accepted connection from 10.231.2.1, port 51175
+[  5] local 10.231.2.2 port 5301 connected to 10.231.2.1 port 42931
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  9.55 GBytes  81.9 Gbits/sec                  (omitted)
+[  5]   1.00-2.00   sec  9.12 GBytes  78.4 Gbits/sec                  (omitted)
+[  5]   1.00-1.00   sec  8.83 GBytes  37.9 Gbits/sec                  
+[  5]   1.00-2.00   sec  8.73 GBytes  75.0 Gbits/sec                  
+[  5]   2.00-3.00   sec  8.65 GBytes  74.3 Gbits/sec                  
+[  5]   3.00-4.00   sec  8.41 GBytes  72.3 Gbits/sec                  
+[  5]   4.00-5.00   sec  8.44 GBytes  72.5 Gbits/sec                  
+[  5]   5.00-6.00   sec  8.19 GBytes  70.4 Gbits/sec                  
+[  5]   6.00-7.00   sec  8.22 GBytes  70.5 Gbits/sec                  
+[  5]   7.00-8.00   sec  8.10 GBytes  69.7 Gbits/sec                  
+[  5]   8.00-9.00   sec  8.27 GBytes  71.0 Gbits/sec                  
+[  5]   9.00-10.00  sec  8.20 GBytes  70.4 Gbits/sec                  
+[  5]  10.00-11.00  sec  8.22 GBytes  70.6 Gbits/sec                  
+[  5]  11.00-12.00  sec  8.20 GBytes  70.4 Gbits/sec                  
+[  5]  12.00-13.00  sec  8.13 GBytes  69.8 Gbits/sec                  
+[  5]  13.00-14.00  sec  8.24 GBytes  70.7 Gbits/sec                  
+[  5]  14.00-15.00  sec  8.06 GBytes  69.3 Gbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-15.00  sec   125 GBytes  71.5 Gbits/sec                  receiver

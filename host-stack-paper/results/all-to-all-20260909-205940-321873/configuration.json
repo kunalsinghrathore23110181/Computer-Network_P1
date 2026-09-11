@@ -1,0 +1,29 @@
+{
+  "pairs": [
+    [
+      0,
+      2,
+      5202
+    ],
+    [
+      0,
+      3,
+      5203
+    ],
+    [
+      1,
+      2,
+      5204
+    ],
+    [
+      1,
+      3,
+      5205
+    ]
+  ],
+  "protocol": "TCP",
+  "congestion_control": "cubic",
+  "warmup_seconds": 3,
+  "measurement_seconds": 15,
+  "repetitions": 3
+}

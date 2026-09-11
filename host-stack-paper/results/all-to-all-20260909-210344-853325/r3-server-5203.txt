@@ -1,0 +1,27 @@
+-----------------------------------------------------------
+Server listening on 5203 (test #1)
+-----------------------------------------------------------
+Accepted connection from 10.204.0.1, port 54281
+[  5] local 10.204.0.2 port 5203 connected to 10.204.0.1 port 46457
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  2.90 GBytes  24.9 Gbits/sec                  (omitted)
+[  5]   1.00-2.00   sec  3.06 GBytes  26.3 Gbits/sec                  (omitted)
+[  5]   1.00-1.00   sec  3.92 GBytes  16.8 Gbits/sec                  
+[  5]   1.00-2.00   sec  4.50 GBytes  38.7 Gbits/sec                  
+[  5]   2.00-3.00   sec  4.38 GBytes  37.7 Gbits/sec                  
+[  5]   3.00-4.00   sec  3.13 GBytes  26.8 Gbits/sec                  
+[  5]   4.00-5.00   sec  3.75 GBytes  32.3 Gbits/sec                  
+[  5]   5.00-6.00   sec  3.63 GBytes  31.1 Gbits/sec                  
+[  5]   6.00-7.00   sec  4.18 GBytes  36.0 Gbits/sec                  
+[  5]   7.00-8.00   sec  4.18 GBytes  35.9 Gbits/sec                  
+[  5]   8.00-9.00   sec  4.11 GBytes  35.3 Gbits/sec                  
+[  5]   9.00-10.00  sec  5.51 GBytes  47.4 Gbits/sec                  
+[  5]  10.00-11.00  sec  5.31 GBytes  45.6 Gbits/sec                  
+[  5]  11.00-12.00  sec  5.53 GBytes  47.5 Gbits/sec                  
+[  5]  12.00-13.00  sec  5.46 GBytes  46.9 Gbits/sec                  
+[  5]  13.00-14.00  sec  5.62 GBytes  48.3 Gbits/sec                  
+[  5]  14.00-15.00  sec  4.80 GBytes  41.2 Gbits/sec                  
+[  5]  15.00-15.00  sec  1.00 MBytes  9.02 Gbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-15.00  sec  68.0 GBytes  39.0 Gbits/sec                  receiver

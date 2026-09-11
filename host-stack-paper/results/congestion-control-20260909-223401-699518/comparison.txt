@@ -1,0 +1,10 @@
+EXPERIMENT 10: TCP CONGESTION CONTROL
+
+CUBIC: 98.185 Gbps; sample SD 5.978; change versus CUBIC +0.00%; mean retransmissions 24.3
+BBR: 65.463 Gbps; sample SD 4.050; change versus CUBIC -33.33%; mean retransmissions 2902.7
+DCTCP: 94.343 Gbps; sample SD 12.299; change versus CUBIC -3.91%; mean retransmissions 10.3
+
+DCTCP live state and ECN-support evidence were checked.
+ECN-support evidence does not establish a measured congestion response.
+Inspect saved queue and socket records before claiming an ECN response.
+Source: /home/guru/host-stack-paper/results/congestion-control-20260909-223401-699518

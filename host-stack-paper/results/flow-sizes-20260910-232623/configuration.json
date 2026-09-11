@@ -1,0 +1,139 @@
+{
+  "paper_section": "3.7 (Figures 10 and 11)",
+  "cases": [
+    [
+      "sizes",
+      "rpc-4KiB",
+      16,
+      4096,
+      0
+    ],
+    [
+      "sizes",
+      "rpc-16KiB",
+      16,
+      16384,
+      0
+    ],
+    [
+      "sizes",
+      "rpc-32KiB",
+      16,
+      32768,
+      0
+    ],
+    [
+      "sizes",
+      "rpc-64KiB",
+      16,
+      65536,
+      0
+    ],
+    [
+      "mixed",
+      "bulk-plus-0",
+      0,
+      4096,
+      1
+    ],
+    [
+      "mixed",
+      "bulk-plus-1",
+      1,
+      4096,
+      1
+    ],
+    [
+      "mixed",
+      "bulk-plus-4",
+      4,
+      4096,
+      1
+    ],
+    [
+      "mixed",
+      "bulk-plus-16",
+      16,
+      4096,
+      1
+    ],
+    [
+      "mixed",
+      "rpc-only-16",
+      16,
+      4096,
+      0
+    ]
+  ],
+  "duration_seconds": 20,
+  "cpu_window": "seconds 2 .. duration-1 after launch",
+  "repetitions": 3,
+  "random_seed": 42,
+  "sizes_sender_cpus": [
+    0,
+    1
+  ],
+  "mixed_sender_cpus": [
+    0
+  ],
+  "receiver_cpu": 2,
+  "rpc": "netperf TCP_RR, one outstanding request per connection",
+  "bulk": "netperf TCP_STREAM, 128 KiB writes",
+  "netperf_version": "Netperf version 2.7.1",
+  "setup": {
+    "fs_tx": {
+      "link": "2: fs_tx0@if2: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP mode DEFAULT group default qlen 1000\n    link/ether da:b3:d6:5a:93:00 brd ff:ff:ff:ff:ff:ff link-netns fs_rx promiscuity 0 allmulti 0 minmtu 68 maxmtu 65535 \n    veth addrgenmode eui64 numtxqueues 4 numrxqueues 4 gso_max_size 65536 gso_max_segs 65535 tso_max_size 524280 tso_max_segs 65535 gro_max_size 65536 gso_ipv4_max_size 65536 gro_ipv4_max_size 65536 \n",
+      "offloads": "Features for fs_tx0:\nrx-checksumming: on\ntx-checksumming: on\n\ttx-checksum-ipv4: off [fixed]\n\ttx-checksum-ip-generic: on\n\ttx-checksum-ipv6: off [fixed]\n\ttx-checksum-fcoe-crc: off [fixed]\n\ttx-checksum-sctp: on\nscatter-gather: on\n\ttx-scatter-gather: on\n\ttx-scatter-gather-fraglist: on\ntcp-segmentation-offload: on\n\ttx-tcp-segmentation: on\n\ttx-tcp-ecn-segmentation: on\n\ttx-tcp-mangleid-segmentation: on\n\ttx-tcp6-segmentation: on\n\ttx-tcp-accecn-segmentation: on\ngeneric-segmentation-offload: on\ngeneric-receive-offload: off\nlarge-receive-offload: off [fixed]\nrx-vlan-offload: on\ntx-vlan-offload: on\nntuple-filters: off [fixed]\nreceive-hashing: off [fixed]\nhighdma: on\nrx-vlan-filter: off [fixed]\nvlan-challenged: off [fixed]\ntx-gso-robust: off [fixed]\ntx-fcoe-segmentation: off [fixed]\ntx-gre-segmentation: on\ntx-gre-csum-segmentation: on\ntx-ipxip4-segmentation: on\ntx-ipxip6-segmentation: on\ntx-udp_tnl-segmentation: on\ntx-udp_tnl-csum-segmentation: on\ntx-gso-partial: off [fixed]\ntx-tunnel-remcsum-segmentation: off [fixed]\ntx-sctp-segmentation: on\ntx-esp-segmentation: off [fixed]\ntx-udp-segmentation: on\ntx-gso-list: on\ntx-nocache-copy: off\nloopback: off [fixed]\nrx-fcs: off [fixed]\nrx-all: off [fixed]\ntx-vlan-stag-hw-insert: on\nrx-vlan-stag-hw-parse: on\nrx-vlan-stag-filter: off [fixed]\nl2-fwd-offload: off [fixed]\nhw-tc-offload: off [fixed]\nesp-hw-offload: off [fixed]\nesp-tx-csum-hw-offload: off [fixed]\nrx-udp_tunnel-port-offload: off [fixed]\ntls-hw-tx-offload: off [fixed]\ntls-hw-rx-offload: off [fixed]\nrx-gro-hw: off [fixed]\ntls-hw-record: off [fixed]\nrx-gro-list: off\nmacsec-hw-offload: off [fixed]\nrx-udp-gro-forwarding: off\nhsr-tag-ins-offload: off [fixed]\nhsr-tag-rm-offload: off [fixed]\nhsr-fwd-offload: off [fixed]\nhsr-dup-offload: off [fixed]\n",
+      "qdisc": "qdisc noqueue 0: root refcnt 2 \n",
+      "congestion_control": "cubic"
+    },
+    "fs_rx": {
+      "link": "2: fs_rx0@if2: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP mode DEFAULT group default qlen 1000\n    link/ether 1e:92:ff:40:fc:67 brd ff:ff:ff:ff:ff:ff link-netns fs_tx promiscuity 0 allmulti 0 minmtu 68 maxmtu 65535 \n    veth addrgenmode eui64 numtxqueues 4 numrxqueues 4 gso_max_size 65536 gso_max_segs 65535 tso_max_size 524280 tso_max_segs 65535 gro_max_size 65536 gso_ipv4_max_size 65536 gro_ipv4_max_size 65536 \n",
+      "offloads": "Features for fs_rx0:\nrx-checksumming: on\ntx-checksumming: on\n\ttx-checksum-ipv4: off [fixed]\n\ttx-checksum-ip-generic: on\n\ttx-checksum-ipv6: off [fixed]\n\ttx-checksum-fcoe-crc: off [fixed]\n\ttx-checksum-sctp: on\nscatter-gather: on\n\ttx-scatter-gather: on\n\ttx-scatter-gather-fraglist: on\ntcp-segmentation-offload: on\n\ttx-tcp-segmentation: on\n\ttx-tcp-ecn-segmentation: on\n\ttx-tcp-mangleid-segmentation: on\n\ttx-tcp6-segmentation: on\n\ttx-tcp-accecn-segmentation: on\ngeneric-segmentation-offload: on\ngeneric-receive-offload: off\nlarge-receive-offload: off [fixed]\nrx-vlan-offload: on\ntx-vlan-offload: on\nntuple-filters: off [fixed]\nreceive-hashing: off [fixed]\nhighdma: on\nrx-vlan-filter: off [fixed]\nvlan-challenged: off [fixed]\ntx-gso-robust: off [fixed]\ntx-fcoe-segmentation: off [fixed]\ntx-gre-segmentation: on\ntx-gre-csum-segmentation: on\ntx-ipxip4-segmentation: on\ntx-ipxip6-segmentation: on\ntx-udp_tnl-segmentation: on\ntx-udp_tnl-csum-segmentation: on\ntx-gso-partial: off [fixed]\ntx-tunnel-remcsum-segmentation: off [fixed]\ntx-sctp-segmentation: on\ntx-esp-segmentation: off [fixed]\ntx-udp-segmentation: on\ntx-gso-list: on\ntx-nocache-copy: off\nloopback: off [fixed]\nrx-fcs: off [fixed]\nrx-all: off [fixed]\ntx-vlan-stag-hw-insert: on\nrx-vlan-stag-hw-parse: on\nrx-vlan-stag-filter: off [fixed]\nl2-fwd-offload: off [fixed]\nhw-tc-offload: off [fixed]\nesp-hw-offload: off [fixed]\nesp-tx-csum-hw-offload: off [fixed]\nrx-udp_tunnel-port-offload: off [fixed]\ntls-hw-tx-offload: off [fixed]\ntls-hw-rx-offload: off [fixed]\nrx-gro-hw: off [fixed]\ntls-hw-record: off [fixed]\nrx-gro-list: off\nmacsec-hw-offload: off [fixed]\nrx-udp-gro-forwarding: off\nhsr-tag-ins-offload: off [fixed]\nhsr-tag-rm-offload: off [fixed]\nhsr-fwd-offload: off [fixed]\nhsr-dup-offload: off [fixed]\n",
+      "qdisc": "qdisc noqueue 0: root refcnt 2 \n",
+      "congestion_control": "cubic"
+    }
+  },
+  "environment": {
+    "kernel": "7.0.0-31-generic",
+    "machine": "aarch64",
+    "cpus": 4,
+    "iperf3": "iperf 3.20 (cJSON 1.7.15)",
+    "started": "2026-09-10T23:26:23",
+    "net.ipv4.tcp_rmem": "4096\t131072\t33554432",
+    "net.ipv4.tcp_wmem": "4096\t16384\t4194304",
+    "net.core.rmem_max": "4194304",
+    "net.core.wmem_max": "4194304",
+    "net.core.netdev_max_backlog": "unavailable"
+  },
+  "idle_baseline": {
+    "0": {
+      "busy": 10.50800000000001,
+      "usr": 8.86,
+      "sys": 1.6460000000000001,
+      "soft": 0.0,
+      "samples": 5
+    },
+    "1": {
+      "busy": 10.299999999999997,
+      "usr": 8.034,
+      "sys": 2.064,
+      "soft": 0.0,
+      "samples": 5
+    },
+    "2": {
+      "busy": 12.311999999999998,
+      "usr": 10.67,
+      "sys": 1.64,
+      "soft": 0.0,
+      "samples": 5
+    },
+    "3": {
+      "busy": 12.671999999999997,
+      "usr": 10.426,
+      "sys": 2.246,
+      "soft": 0.0,
+      "samples": 5
+    }
+  }
+}

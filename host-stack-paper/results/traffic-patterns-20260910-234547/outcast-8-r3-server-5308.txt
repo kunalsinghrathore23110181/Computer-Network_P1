@@ -1,0 +1,27 @@
+-----------------------------------------------------------
+Server listening on 5308 (test #1)
+-----------------------------------------------------------
+Accepted connection from 10.231.2.1, port 36329
+[  5] local 10.231.2.2 port 5308 connected to 10.231.2.1 port 60215
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  1.59 GBytes  13.6 Gbits/sec                  (omitted)
+[  5]   1.00-2.00   sec  1.59 GBytes  13.7 Gbits/sec                  (omitted)
+[  5]   1.00-1.00   sec  1.54 GBytes  6.62 Gbits/sec                  
+[  5]   1.00-2.00   sec  1.51 GBytes  13.0 Gbits/sec                  
+[  5]   2.00-3.00   sec  1.50 GBytes  12.9 Gbits/sec                  
+[  5]   3.00-4.00   sec  1.50 GBytes  12.9 Gbits/sec                  
+[  5]   4.00-5.00   sec  1.46 GBytes  12.5 Gbits/sec                  
+[  5]   5.00-6.00   sec  1.49 GBytes  12.8 Gbits/sec                  
+[  5]   6.00-7.00   sec  1.46 GBytes  12.5 Gbits/sec                  
+[  5]   7.00-8.00   sec  1.44 GBytes  12.4 Gbits/sec                  
+[  5]   8.00-9.00   sec  1.49 GBytes  12.8 Gbits/sec                  
+[  5]   9.00-10.00  sec  1.43 GBytes  12.3 Gbits/sec                  
+[  5]  10.00-11.00  sec  1.44 GBytes  12.4 Gbits/sec                  
+[  5]  11.00-12.00  sec  1.44 GBytes  12.4 Gbits/sec                  
+[  5]  12.00-13.00  sec  1.41 GBytes  12.1 Gbits/sec                  
+[  5]  13.00-14.00  sec  1.45 GBytes  12.5 Gbits/sec                  
+[  5]  14.00-15.00  sec  1.45 GBytes  12.5 Gbits/sec                  
+[  5]  15.00-15.01  sec  3.12 MBytes  6.56 Gbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-15.01  sec  22.0 GBytes  12.6 Gbits/sec                  receiver
